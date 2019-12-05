@@ -2,3 +2,5 @@
 config.json
 package-lock.json
 npm-debug.log
+
+/daemon/*.log

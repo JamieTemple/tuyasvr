@@ -1,0 +1,26 @@
+<service>
+	<id>tuyaserver.exe</id>
+	<name>Tuya Server</name>
+	<description>The nodejs.org example web server.</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>--max_old_space_size=4096</argument>
+	<argument>C:\Users\FaradayAdmin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\OpenHAB2\tuyasvr\server.js</argument>
+	<argument>--log</argument>
+	<argument>Tuya Server wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>c:\OpenHAB2\tuyasvr</workingdirectory>
+</service>
